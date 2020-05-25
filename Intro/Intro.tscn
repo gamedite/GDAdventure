@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Intro/gd.png" type="Texture" id=1]
+[ext_resource path="res://Intro/Intro.gd" type="Script" id=2]
+
+[node name="Intro" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="gd" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+centered = false
